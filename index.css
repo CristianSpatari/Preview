@@ -5,7 +5,7 @@ html, body {
 
 .separator {
   padding: 8px 0  6px 0;
-  height: 57px;
+  height: 67px;
   display: flex;
   align-items: center;
   border-left: 1px solid #eee;
@@ -98,10 +98,23 @@ a {
 
 svg{
   color: #8685A8;
-  width: 32px;
-  height: 32px;
 }
 
 svg:hover{
   color: #3D3AC4;
+}
+
+.svg-desktop {
+  width: 40px;
+  height: 40px;
+}
+
+.svg-tablet {
+  width: 34px;
+  height: 34px;
+}
+
+.svg-phone {
+  width: 28px;
+  height: 28px;
 }
